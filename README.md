@@ -24,3 +24,12 @@ I suggest you install [django-environ](https://github.com/joke2k/django-environ)
 
 Follow the [doc](https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/#critical-settings).
 Go to the `Environment Variables` tab of your service configuration.
+
+### Superuser
+
+`python manage.py createsuperuser --noinput`
+
+with env vars:
+- `DJANGO_SUPERUSER_EMAIL`
+- `DJANGO_SUPERUSER_PASSWORD`
+- `DJANGO_SUPERUSER_USERNAME`
