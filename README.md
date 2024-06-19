@@ -33,9 +33,9 @@ IS_INIT=1
 SECRET_KEY=asdfasdfasdfasdfasdfasdf
 
 # Superuser
-DJANGO_SUPERUSER_EMAIL=luca@lucafedrizzi.com
-DJANGO_SUPERUSER_PASSWORD=adminadminadmin
-DJANGO_SUPERUSER_USERNAME=admin
+DJANGO_SUPERUSER_EMAIL=your@superuser.email
+DJANGO_SUPERUSER_PASSWORD=password
+DJANGO_SUPERUSER_USERNAME=username
 ```
 
 I suggest you install [django-environ](https://github.com/joke2k/django-environ).
